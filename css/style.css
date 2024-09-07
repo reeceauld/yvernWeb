@@ -86,8 +86,6 @@ header{
     text-decoration: none;
     font-weight: 600;
 }
-
-
 #socialsButton:hover{
     transform: scale(1.05);
 }
