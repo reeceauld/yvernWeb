@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body{
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+header{
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+#headerText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+#headerText a{
+    color: white;
+    text-decoration: none;
+}
+#headerText img{
+    width: 100px;
+    z-index: 1;
+    max-width: 100%;
+
+}
+#mainContainer{
+    width: 100vw;
+    height: 100%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#picContainer{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+#picContainer img{
+    width: 200px;
+    border-radius: 100%;
+    max-width: 100%;
+}
+#socialsContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+}
+#socialsButton{
+    width: 70vw;
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#socialsContainer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+#socialsButton:hover{
+    transform: scale(1.05);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (min-width: 900px) {
+    #socialsButton{
+        width: 50vw;
+        height: 100%;
+        background-color: rgb(30, 30, 30);
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        transition: transform 0.3s ease-in-out;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #socialsButton{
+        width: 30vw;
+        height: 100%;
+        background-color: rgb(30, 30, 30);
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        transition: transform 0.3s ease-in-out;
+    }
+}
