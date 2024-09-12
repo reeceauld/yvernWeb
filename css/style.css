@@ -164,6 +164,15 @@ header {
 footer {
   width: 100vw;
   height: 100px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footerContent a{
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+  text-decoration: none;
 }
 @media screen and (min-width: 900px) {
   .socialsButton {
