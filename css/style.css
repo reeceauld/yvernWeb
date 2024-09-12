@@ -161,6 +161,9 @@ header {
 .socialsButton:hover {
   transform: scale(1.05);
 }
+iframe{
+  display: none;
+}
 footer {
   width: 100vw;
   height: 100px;
@@ -212,4 +215,15 @@ footer {
   to {
     transform: rotate(360deg);
   }
+}
+@media screen and (max-width: 500px){
+  .profilePic:hover:before {
+    transition: none;
+  }
+  .profilePic:before {
+    display: none;
+}
+.profilePic:hover{
+  transform: none;
+}
 }
